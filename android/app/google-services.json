@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385501748004",
+    "project_id": "moneywise-ai",
+    "storage_bucket": "moneywise-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385501748004:android:40d44e3a9bcbccd2c9f1b1",
+        "android_client_info": {
+          "package_name": "smartm.openalkw.com.smartmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385501748004-k7a590c318d3erv26cl63o3u58k9frm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCEcfwnZFG2YzfNZrUKK38nIf0IAWhvJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385501748004-k7a590c318d3erv26cl63o3u58k9frm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

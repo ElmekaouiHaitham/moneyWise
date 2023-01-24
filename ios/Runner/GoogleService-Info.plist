@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>385501748004-u2eovi0td1lalluv6oc266u95h1j2cq8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.385501748004-u2eovi0td1lalluv6oc266u95h1j2cq8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCCoi_IGoVXPTc7Hnbl3P9yzwJ8D27YAPI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>385501748004</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>smartm.openalkw.com.smartmoney</string>
+	<key>PROJECT_ID</key>
+	<string>moneywise-ai</string>
+	<key>STORAGE_BUCKET</key>
+	<string>moneywise-ai.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:385501748004:ios:7439d8cd6abe0f66c9f1b1</string>
+</dict>
+</plist>
