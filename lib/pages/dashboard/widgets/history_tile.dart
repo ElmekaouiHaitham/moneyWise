@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smartmoney/widgets/text/number_text.dart';
 
 class HistoryTile extends StatelessWidget {
   const HistoryTile(
@@ -18,14 +19,7 @@ class HistoryTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Row(
-        children: [
-          Text(title),
-          const Spacer(),
-          Text(
-            '\$$amount',
-            style: TextStyle(color: lost ? Colors.red : Colors.green),
-          )
-        ],
+        children: [Text(title), const Spacer(), NumberText(number: amount)],
       ),
       trailing: const Icon(Icons.more_vert),
       subtitle: Text(date),

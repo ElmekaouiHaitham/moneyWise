@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:smartmoney/widgets/text/number_text.dart';
 
 class StatsCard extends StatelessWidget {
   const StatsCard({
     Key? key,
-    required this.width, required this.text, required this.amount, required this.lost,
+    required this.width,
+    required this.text,
+    required this.amount,
+    required this.lost,
   }) : super(key: key);
 
   final double width;
@@ -46,13 +50,7 @@ class StatsCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 5),
-          Text(
-            '\$$amount',
-            style: TextStyle(
-              color: lost? Colors.red:Colors.green,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
+          NumberText(number: amount),
         ],
       ),
     );

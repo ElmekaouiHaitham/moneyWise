@@ -43,7 +43,7 @@ class _DashboardState extends State<Dashboard> {
                       StatsCard(
                           width: width,
                           text: 'expenses',
-                          amount: 1000,
+                          amount: -1000,
                           lost: true),
                       const SizedBox(width: 15),
                       StatsCard(

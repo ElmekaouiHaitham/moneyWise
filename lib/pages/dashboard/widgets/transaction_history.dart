@@ -37,11 +37,11 @@ class TransactionHistory extends StatelessWidget {
               HistoryTile(title: 'salary', amount: 8000, date: '01/11/2022'),
               HistoryTile(
                   title: 'New Shoes',
-                  amount: 100,
+                  amount: -100,
                   date: '20/10/2022',
                   lost: true),
               HistoryTile(
-                  title: 'Chicken', amount: 10, date: '19/10/2022', lost: true),
+                  title: 'Chicken', amount: -10, date: '19/10/2022', lost: true),
               HistoryTile(
                   title: 'salary', amount: 100, date: '10/10/2022', lost: true),
             ],

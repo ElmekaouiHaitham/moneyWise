@@ -83,7 +83,7 @@ class _ExpenseChartState extends State<ExpenseChart> {
     final List<PieChartSectionData> sections = _createSampleData();
     return Container(
       color: Colors.white,
-      height: 300,
+      height: 250,
       width: 300,
       child: PieChart(
         PieChartData(
